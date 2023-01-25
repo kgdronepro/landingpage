@@ -1,0 +1,39 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+img {
+    max-height: 200px;
+    max-width: 200px;
+}
+figcaption {
+    display: flex;
+    align-self: center;
+}
+.header {
+    background-color: rgb(79, 79, 252);
+    display: flex;
+   justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-basis: auto;
+    gap: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(79, 79, 252);
+}
+.random {
+    display: flex;
+    justify-content: center;
+}
